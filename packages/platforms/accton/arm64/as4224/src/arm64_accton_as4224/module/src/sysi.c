@@ -134,8 +134,8 @@ onlp_sysi_onie_data_free(uint8_t* data)
 }
 
 #define FAN_DUTY_MAX (100)
-#define FAN_DUTY_MID  (75)
-#define FAN_DUTY_LOW  (50)
+#define FAN_DUTY_MID  (50)
+#define FAN_DUTY_LOW  (15)
 #define MAX_CHASSIS_FAN_COUNT 6
 
 static int
